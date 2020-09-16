@@ -48,7 +48,6 @@ calculate_mean(key_crop_yields$Maize..tonnes.per.hectare.)
 ```
 #4) Save a file with the variable named "Entity".
 ```{R}
-Entity <- c(1,3,4,5,7,8,9,22)
-write.table(Entity, "file_for_four", append = F, sep = " ", dec = ".",
+write.table(key_crop_yields$Entity, "file_for_four", append = F, sep = " ", dec = ".",
             row.names = F, col.names = F)
 ```
